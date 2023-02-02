@@ -1,0 +1,17 @@
+608fbfc78234cae3905b504a8dbb23a0 *DESCRIPTION
+b16068f81a7d573ca210cc13a2709261 *LICENSE
+f8f60e6f8ae86e9f87baf4ddaec41c9d *NAMESPACE
+38aebe7d9551f8e69b89908870fa9735 *R/Olympic_Data.R
+e7c72a3b2b248467fd72dd01e2ad10ef *R/app_config.R
+773e86a046d2fff7d5518e1ff44f4cd6 *R/app_server.R
+96c2d700731cbd2ddf7ed01a4eccc956 *R/app_ui.R
+c893186f88192a88e1a6bddd406e3a4a *R/globals.R
+2b88fa4de707a8073a1351b45cfe1ec8 *R/run_app.R
+37bbea7a37d2f7114e2fb1fca288229e *data/Olympic.rda
+5171b58271b3c7ed200ee1c016e3b4cd *inst/app/www/Olympic.png
+81560d1b906a530c87fa0acbb2f5cca4 *inst/app/www/favicon.ico
+7558104c2cd15be535292c4bfeef5abb *inst/app/www/favicon.png
+85de268194422e41263f8019027f2950 *inst/golem-config.yml
+3a6a17377076fb4a3aa78594c41c6616 *man/Olympic.Rd
+7558104c2cd15be535292c4bfeef5abb *man/figures/logo.png
+49975c35031ebe15b952621eb9148f49 *man/run_app.Rd
