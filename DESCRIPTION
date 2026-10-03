@@ -1,24 +1,28 @@
 Package: OlympicRshiny
 Title: 'Shiny' Application for Olympic Data
-Version: 1.0.2
+Version: 1.1.0
 Authors@R: 
     person("Amalan", "Mahendran", , "amalan0595@gmail.com", role = c("cre", "aut"))
-Description: 'Shiny' Application to visualize Olympic Data. From 1896 to
-    2016. Even Winter Olympics events are included. Data is from Kaggle at
-    <https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results>.
+Description: Provides a 'Shiny' application for exploring and visualizing
+    Olympic Games data from 1896 onwards, including both Summer and Winter
+    Olympic Games. The application provides interactive visualizations of
+    athletes, countries, sports, events, and medal results. Olympic data
+    are obtained from the 'olympicAthletes' R package.
 License: MIT + file LICENSE
 URL:
-        https://github.com/Amalan-ConStat/OlympicRshiny,https://amalan-con-stat.shinyapps.io/OlympicRshiny/,https://amalan-con-stat.shinyapps.io/olympic/
+        https://github.com/Amalan-ConStat/OlympicRshiny,https://amalan-con-stat.shinyapps.io/OlympicRshiny/
 BugReports: https://github.com/Amalan-ConStat/OlympicRshiny/issues
-Depends: R (>= 2.10)
-Imports: config (>= 0.3.1), dplyr, forcats, ggplot2, golem (>= 0.3.5),
-        shiny (>= 1.7.4), shinybusy, shinythemes, summarytools
+Depends: R (>= 4.1.0)
+Imports: config, dplyr, forcats, ggplot2, golem, shiny, shinybusy,
+        shinythemes
+Suggests: olympicAthletes,
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.2
+LazyDataCompression: xz
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2024-11-20 06:26:20 UTC; amala
+Packaged: 2026-10-03 13:53:54 UTC; amala
 Author: Amalan Mahendran [cre, aut]
 Maintainer: Amalan Mahendran <amalan0595@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-11-20 06:40:02 UTC
+Date/Publication: 2026-10-03 14:10:02 UTC
